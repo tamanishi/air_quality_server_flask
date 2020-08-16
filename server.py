@@ -11,5 +11,5 @@ def measure():
 
 if __name__ == '__main__':
     air_quality_monitor = AirQualityMonitor()
-    app.run()
+    app.run(host='0.0.0.0')
 
